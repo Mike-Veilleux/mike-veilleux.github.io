@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+display: inline-flexbox;
+flex-direction: row;
+align-items: center;
+}
+
+
+.frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.image {
+    display: flex;
+    align-self: center;
+    border-radius: 100px;    
+}
+
+
+.imageText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
