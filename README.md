@@ -26,7 +26,7 @@ This is as simple as it gets, click **[here](https://mike-veilleux.github.io)** 
 
 #### September 2022
 * Creation and initial setup
-* Implemented CSS Style sheet with Flex
+* Implemented CSS style sheet with Flexbox approach
 
 
 ## Support
