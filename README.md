@@ -1,11 +1,11 @@
 # Where it all starts...
 
-I've enrolled in a MIT fullstack MERN developer course in August 2022, to further broaden my dev skills. This time focusing on the latest trends in web based tech. 
+I enrolled in a MIT fullstack MERN developer course in August 2022, to broaden my development skills; this time focusing on the latest trends in web-based tech. 
 
 
 ## Description
 
-This is my portfolio page. It is a representation of my development journey. As I keep furthering my knowledge, I will apply the techniques I have learned on this site. The content will mostly be based around my skill set and interest.
+This is my portfolio page. It is a representation of my development journey. As I keep furthering my knowledge, I will apply the techniques I have learned on this site. The content will mostly be based on my skill set and interests.
 
 Here's a list of the tech I'll be using:
 * MongoDB
