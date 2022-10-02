@@ -8,7 +8,7 @@ This is my portfolio page. It is a representation of my development journey. As 
 
 ## Usage
 
-This is as simple as it gets, click **[here](https:/mike-veilleux.github.io) to go to my protfolio's page
+This is as simple as it gets, click **[here](https:/mike-veilleux.github.io)** to go to my protfolio's page
 
 ## Latest updates
 
