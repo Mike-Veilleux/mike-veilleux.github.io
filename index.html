@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css" />
-	<title>Mike's Protfolio</title>
-</head>
-<body class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./module/eye_tracker.js"></script>
+    <title>Mike Veilleux</title>
+  </head>
+
+  <body class="container">
 	<div class="frame">
-	<h1 class="imageText">Mike's Portfolio</h1>
-	<img class="image" src="./MyProfilePicture.jpg" />
-	<!-- <img class="image" src="./MyProfilePicture.jpg" /> -->
+        <h1 class="imageText">Mike's Portfolio</h1>
+        <img class="image"  style="z-index: 3" src="./Media/MyProfilePicture.png" />
+        <div id="frame_1" style="z-index: 2; top: -360px; left: -90px"></div>
+        <div id="frame_2" style="z-index: 2; top: -390px; left: 12px"></div>
 	</div>
 </body>
+
 </html>
