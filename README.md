@@ -22,7 +22,7 @@ This is as simple as it gets, click **[here](https://mike-veilleux.github.io)** 
 ## Latest updates
 
 #### October 2022
-* Work In progress
+* Eye tracking added to avatar picture
 
 #### September 2022
 * Creation and initial setup
