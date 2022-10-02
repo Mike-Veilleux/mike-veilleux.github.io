@@ -5,7 +5,7 @@ I enrolled in a MIT fullstack MERN developer course in August 2022, to broaden m
 
 ## Description
 
-This is my portfolio page. It is a representation of my development journey. As I keep furthering my knowledge, I will apply the techniques I have learned on this site. The content will mostly be based on my skill set and interests.
+This is my portfolio page. It is a representation of my development journey. As I further my knowledge, I will apply the techniques learned on this site. The content will be based on my skill set and interests.
 
 Here's a list of the tech I'll be using:
 * MongoDB
