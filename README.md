@@ -23,6 +23,7 @@ This is as simple as it gets, click **[here](https://mike-veilleux.github.io)** 
 
 #### October 2022
 * Eye tracking added to avatar picture
+* Added support for Bootstrap
 
 #### September 2022
 * Creation and initial setup
