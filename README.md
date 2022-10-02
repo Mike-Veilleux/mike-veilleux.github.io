@@ -5,7 +5,7 @@ I've enrolled in a MIT fullstack MERN developer course in August 2022, to furthe
 
 ## Description
 
-This is my portfolio page. It is a representation of my development journey. As I keep furthering my knoledge, I will apply the technics I've learned on this site. The content will mostly be based around my skill set and interest.
+This is my portfolio page. It is a representation of my development journey. As I keep furthering my knowledge, I will apply the techniques I have learned on this site. The content will mostly be based around my skill set and interest.
 
 Here's a list of the tech I'll be using:
 * MongoDB
@@ -16,7 +16,7 @@ Here's a list of the tech I'll be using:
 
 ## Usage
 
-This is as simple as it gets, click **[here](https://mike-veilleux.github.io)** to go to my protfolio's page
+This is as simple as it gets, click **[here](https://mike-veilleux.github.io)** to go to my portfolio page
 
 
 ## Latest updates
@@ -31,6 +31,6 @@ This is as simple as it gets, click **[here](https://mike-veilleux.github.io)** 
 
 ## Support
 
-If you find anything of interest on this site and have any question on why or how I've implemented it, you can contact me at: mvxdesign.hk@gmail.com
+If you find anything of interest on this site and have any questions on why or how I implemented it, you can contact me at: mvxdesign.hk@gmail.com
 
 
