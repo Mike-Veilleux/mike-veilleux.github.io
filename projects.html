@@ -2,13 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Mike Veilleux - Projects</title>
+    <title>Mike Veilleux's Portfolio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-custom.css">
+
+    <script src="./scr/randomAvatar.js"></script>
 
 </head>
 
@@ -16,7 +22,10 @@
     <header class="sticky-top">
         <nav class="navbar navbar-dark bg-dark ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Mike Veilleux</a>
+                <div>
+                    <img id="random-avatar" src="https://robohash.org/Mike?set=set1" alt="Random Avatar" width="40" height="40" style="transform: scaleX(-1);">
+                    <a class="navbar-brand align-middle" href="#">Mike Veilleux</a>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,13 +42,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="./projects.html">Projects</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project Links</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownId">
                                     <a class="dropdown-item" href="exercises/pacman-exercise/index.html">Pacman</a>
                                     <a class="dropdown-item" href="exercises/eye-exercise/eyes.html">Eyes</a>
                                 </div>
-                            </li>
+                            </li> -->
                         </ul>
                         <!-- <form class="d-flex">
                                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -114,7 +123,7 @@
                                 <img class="card-img-top " src="./images/pacman_500px.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Pacman</h4>
-                                    <p class="card-text">This was one of my very first projects during my training at MIT. All about the fundamentals of JavaScript and web must know…</p>
+                                    <p class="card-text">This was one of my very first projects from my training at MIT. All about the fundamentals of JavaScript and web must know…</p>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +135,7 @@
                                 <img class="card-img-top " src="./images/eye_card_500px.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Eyes Tracker</h4>
-                                    <p class="card-text">A truly eye popping exercise from my course at MIT. A great introduction to event driven graphic animation. This is the personalized version…</p>
+                                    <p class="card-text">A truly eye popping exercise from my training at MIT. A great introduction to event driven graphic animation. This is the personalized version…</p>
                                 </div>
                             </div>
                         </div>
