@@ -9,3 +9,85 @@
   font-family: Raleway;
   /* Poppins; */
 }
+
+/* .card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+} */
+
+.card {
+  /* border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05); */
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  /* padding: 14px 80px 18px 36px; */
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.icon-40 {
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.light {
+  color: white;
+}
+.dark {
+  color: rgb(22, 26, 34);
+}
+
+.stylized-link {
+  outline: none;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.stylized-link:link {
+  color: blue;
+}
+
+.stylized-link:visited {
+  color: purple;
+}
+
+.stylized-link:focus,
+.stylized-link:hover {
+  border-bottom: 1px solid;
+}
+
+.stylized-link:active {
+  color: red;
+}
+
+.stylized-link[href^="http"] {
+  background: url("https://www.clipartmax.com/png/small/327-3273760_export-external-external-link-icon-png.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+/* .preview-text {
+  /* color: grey; */
+  overflow: hidden;
+  height: 3em;
+  line-height: 1.5em;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.preview-text:after {
+  content: "...";
+  background: #f3f5f6;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+} */
