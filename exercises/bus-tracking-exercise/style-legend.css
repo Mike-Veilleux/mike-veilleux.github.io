@@ -1,0 +1,64 @@
+.legend-frame {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  top: 20px;
+  right: 20px;
+  width: fit-content;
+  height: fit-content;
+  z-index: 2;
+  background-color: rgba(49, 63, 74, 0.746);
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.legend-title {
+  display: flex;
+  justify-content: center;
+  color: rgb(236, 247, 255);
+  font-size: 1.55em;
+  font-family: "Roboto", sans-serif;
+}
+
+.legend-content {
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  text-align: center;
+  color: #ecf7ff;
+  line-height: 1.5em;
+}
+
+.stylized-link {
+  outline: none;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.stylized-link:link {
+  color: blue;
+}
+
+.stylized-link:visited {
+  color: purple;
+}
+
+.stylized-link:focus,
+.stylized-link:hover {
+  border-bottom: 1px solid;
+}
+
+.stylized-link:active {
+  color: red;
+}
+
+.stylized-link[href^="http"] {
+  background: url(./images/arrow-up-right-from-square-solid.svg) no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+  /* Color for SVG */
+  /* filter tool => https://codepen.io/sosuke/pen/Pjoqqp */
+  filter: invert(92%) sepia(3%) saturate(1398%) hue-rotate(188deg) brightness(102%) contrast(105%);
+}

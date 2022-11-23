@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Eyes Exercise</title>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style-legend.css" />
+</head>
+
+<body>
+  <!-- Legend -->
+  <div class="legend-frame">
+    <div class="legend-title">Eyes Exercise</div>
+    <div class="legend-content">Mouse tracking eyes exercise.</div>
+    <div class="legend-content"><a class="stylized-link" href="https://github.com/Mike-Veilleux/eye-exercise" target="_blank">Github</a></div>
+  </div>
+
+  <div class="eyes">
+    <div class="eye">
+      <div class="ball"></div>
+    </div>
+    <div class="eye">
+      <div class="ball"></div>
+    </div>
+  </div>
+</body>
+<script>
+  var balls = document.getElementsByClassName("ball");
+  document.onmousemove = () => {
+    var x = (event.clientX * 100) / window.innerWidth + "%";
+    var y = (event.clientY * 100) / window.innerHeight + "%";
+
+    for (let i = 0; i < 2; i++) {
+      balls[i].style.left = x;
+      balls[i].style.top = y;
+      balls[i].transfoorm = "translate(-" + x + ",-" + y + ")";
+    }
+  };
+</script>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>

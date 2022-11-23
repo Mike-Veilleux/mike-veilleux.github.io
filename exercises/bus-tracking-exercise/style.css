@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.markerDir0 {
+  background-image: url("images/bus-solid.svg");
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  filter: invert(18%) sepia(82%) saturate(5648%) hue-rotate(240deg) brightness(63%) contrast(119%);
+}
+
+.markerDir1 {
+  background-image: url("images/bus-solid.svg");
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  filter: invert(15%) sepia(91%) saturate(3506%) hue-rotate(355deg) brightness(78%) contrast(97%);
+}
+
+.endPointDir0 {
+  background-image: url("images/flag-checkered-solid.svg");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  filter: invert(18%) sepia(82%) saturate(5648%) hue-rotate(240deg) brightness(63%) contrast(119%);
+  /* filter: invert(16%) sepia(9%) saturate(7487%) hue-rotate(208deg) brightness(91%) contrast(125%); */
+}
+
+.endPointDir1 {
+  background-image: url("images/flag-checkered-solid.svg");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  filter: invert(15%) sepia(91%) saturate(3506%) hue-rotate(355deg) brightness(78%) contrast(97%);
+  /* filter: invert(4%) sepia(87%) saturate(5452%) hue-rotate(358deg) brightness(104%) contrast(96%); */
+}
+
+.pointOfInterest {
+  background-image: url("images/building-columns-solid.svg");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  filter: invert(62%) sepia(48%) saturate(497%) hue-rotate(89deg) brightness(95%) contrast(95%);
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}

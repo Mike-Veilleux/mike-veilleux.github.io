@@ -2,9 +2,21 @@
 
 <head>
     <title>Pacmen</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style-legend.css">
 </head>
 
 <body>
+    <div class="legend-frame">
+        <div class="legend-title">Pacman Exercise</div>
+        <div class="legend-content">Movement and collision exercise.</div>
+        <div class="legend-content"><a class="stylized-link" href="https://github.com/Mike-Veilleux/pacman-exercise" target="_blank">Github</a></div>
+    </div>
     <div id='game'>
         <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
         <button onclick='update()' width='200' height='30'>Start Game</button>

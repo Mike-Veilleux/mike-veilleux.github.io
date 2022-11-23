@@ -70,13 +70,13 @@
 }
 
 .stylized-link[href^="http"] {
-  background: url("https://www.clipartmax.com/png/small/327-3273760_export-external-external-link-icon-png.png") no-repeat 100% 0;
+  background: url("./images/arrow-up-right-from-square-solid.svg") no-repeat 100% 0;
   background-size: 16px 16px;
   padding-right: 19px;
 }
 
 /* .preview-text {
-  /* color: grey; */
+  color: grey;
   overflow: hidden;
   height: 3em;
   line-height: 1.5em;

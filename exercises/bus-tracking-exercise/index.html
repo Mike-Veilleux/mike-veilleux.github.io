@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bus Tracking Exercise</title>
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Mapbox -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-legend.css">
+</head>
+
+<body>
+    <div class="legend-frame">
+        <div class="legend-title">Bus Tracking Exercise</div>
+        <div class="legend-content">Bus fleet live tracking on route 1. Boston MA.</div>
+        <div class="legend-content"><a class="stylized-link" href="https://github.com/Mike-Veilleux/bus-tracking-exercise" target="_blank">Github</a></div>
+
+    </div>
+    <div id="map" class="map-container"></div>
+
+    <!-- Scripts -->
+    <script type="module" src="./scripts/mapanimation.js"></script>
+</body>
+
+</html>
