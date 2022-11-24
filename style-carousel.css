@@ -1,0 +1,14 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.caption-bg-dark {
+  background-color: #484848c0;
+  color: aliceblue;
+  border-radius: 0.5em;
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
