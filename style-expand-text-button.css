@@ -1,0 +1,50 @@
+.cutoff-text {
+  --max-line: 2;
+  --line-height: 1.5;
+
+  max-height: calc(var(--max-line) * 1em * var(--line-height));
+  line-height: var(--line-height);
+
+  text-align: justify;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.cutoff-text:has(+ .expand-btn:not(:checked))::before {
+  content: "";
+  position: absolute;
+  height: calc(1.2em * var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, white);
+}
+
+.expand-btn {
+  appearance: none;
+  border: 1px solid rgba(192, 192, 192, 0.519);
+  color: rgba(120, 120, 120, 0.519);
+  font-style: italic;
+  padding: 0.15em;
+  border-radius: 0.25em;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.expand-btn:hover {
+  background-color: rgba(155, 255, 155, 0.408);
+}
+
+.expand-btn::before {
+  content: "Show more...";
+}
+
+.expand-btn:checked:before {
+  content: "Show less...";
+}
+
+.cutoff-text:has(+ .expand-btn:checked) {
+  max-height: none;
+}

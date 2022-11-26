@@ -20,6 +20,7 @@
 
     <!-- Custom Style -->
     <link rel="stylesheet" href="style-bootstrap-custom.css">
+    <link rel="stylesheet" href="style-expand-text-button.css">
 
     <script src="./scr/randomAvatar.js"></script>
 
@@ -55,12 +56,13 @@
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item mx-auto">
                                 <h2>
-                                    <a class="nav-link " href="./index.html">Home</a>
+
+                                    <a class="nav-link " href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
                                 </h2>
                             </li>
                             <li class="nav-item mx-auto">
                                 <h2>
-                                    <a class="nav-link active" aria-current="page" href="./projects.html">Projects</a>
+                                    <a class="nav-link active" aria-current="page" href="./projects.html"><i class="fa-solid fa-list"></i> Projects</a>
                                 </h2>
                             </li>
                         </ul>
@@ -81,7 +83,8 @@
                                 <img class="card-img-top " src="./images/cards/bus_tracking_card_500px.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Live Bus Tracking</h4>
-                                    <p class="card-text">Follow Boston’s buses live on their route with real time tracking and information update. This is a mandatory project for our training as web developers.</p>
+                                    <p class="cutoff-text">Follow Boston’s buses live on their route with real time tracking and information update. For this project I used MapboxGL and the MBTA public API. <br><br> I decided to build my code around JavaScript class. I was able to integrate the Json data and the Mapbox.Marker in the same class instead of maintaining two separate arrays in the main program loop. <br><br>By having all my elements encapsulated in a class, the code in the main loop became clearer and easy to follow. I think this will also help for further expansions and reduce complexity. </p>
+                                    <input class="expand-btn mb-3" type="checkbox">
                                     <a class="stylized-link" href="https://github.com/Mike-Veilleux/bus-tracking-exercise" target="_blank">Github</a>
                                     <a class="stylized-link" href="https://mike-veilleux.github.io/exercises/bus-tracking-exercise/index.html" target="_blank">Live</a>
                                 </div>
@@ -108,7 +111,8 @@
                                 <img class="card-img-top " src="./images/cards/Fusion_500px.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Tabs & Living Hinges</h4>
-                                    <p class="card-text">Generate Tabs and Living Hinges pattern in Fusion 360 for laser cutters. This Python based GPL license project has already gain community collaboration via Github.</p>
+                                    <p class="cutoff-text">Generate Tabs and Living Hinges pattern in Fusion 360 for laser cutters.<br><br>As a Fusion 360 instructor and active maker, I realized the need for an automated tab joints and living hinges generator. I wrote those two plugins to accelerate the process in the native environment.<br><br>This Python based GPL license project has already gain community collaboration via Github.</p>
+                                    <input class="expand-btn mb-3" type="checkbox">
                                     <a class="stylized-link" href="https://github.com/Mike-Veilleux/Fusion360-Plugin-TabJoint-LivingHinge" target="_blank">Github</a>
                                     <a class="stylized-link" href="./slided-f360-plugin.html" target="_blank">Galery</a>
                                 </div>
@@ -126,7 +130,8 @@
                                 <img class="card-img-top " src="./images/cards/lift_500px.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Elevator System</h4>
-                                    <p class="card-text">A simple elevator system for unity3D environment. Easily expandable with no dependency, this is a great project to learn more and experiment with event based design patterns.</p>
+                                    <p class="cutoff-text">A simple elevator system for unity3D environment. Easily expandable with no dependency, this is a great project to learn more and experiment with event based design patterns. Here's a few features highlight: <br><br>- Animated doors <br>- Operating buttons <br>- Floor selection UI <br>- Easy to expand and configure <br><br>That project was created on version 2021.3.0f1 but can be upgraded upward. If you need it for a previous version, you can salvage the scripts easily.</p>
+                                    <input class="expand-btn mb-3" type="checkbox">
                                     <a class="stylized-link" href="https://github.com/Mike-Veilleux/Unity-Elevator-System" target="_blank">Github</a>
                                     <a class="stylized-link" href="" target="_blank">Github</a>
                                 </div>
@@ -140,7 +145,8 @@
                                 <img class="card-img-top " src="./images/cards/pacman_500px.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Pacman</h4>
-                                    <p class="card-text">This was one of my very first projects from my training at MIT. All about the fundamentals of JavaScript and web must know.</p>
+                                    <p class="cutoff-text">This was one of my very first projects from my training at MIT. All about the fundamentals of JavaScript and web must know.<br><br>This project constains functions for movement based on direction and velocity. There is also a system to detect collisons.<br><br>This is an ongoing project and I will most likely add more functionality to it such as collision detection between pacmen.</p>
+                                    <input class="expand-btn mb-3" type="checkbox">
                                     <a class="stylized-link" href="https://github.com/Mike-Veilleux/pacman-exercise" target="_blank">Github</a>
                                     <a class="stylized-link" href="https://mike-veilleux.github.io/exercises/pacman-exercise/index.html" target="_blank">Live</a>
 
@@ -155,7 +161,8 @@
                                 <img class="card-img-top " src="./images/cards/eye_card_500px.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h4 class="card-title">Eyes Tracker</h4>
-                                    <p class="card-text">A truly eye popping exercise from my training at MIT. A great introduction to event driven graphic animation. This is the personalized version.</p>
+                                    <p class="cutoff-text">A truly eye popping exercise from my training at MIT. A great introduction to event driven graphic animation. This exercise targets a few skills building:<br><br>-"onmousemove" event subscription<br>- Reading mouse event properties<br>- Usage of “absolute” and “relative” in CSS<br><br>There are many upgrades possible for this project. Here's a few on my mind:<br><br>- Use a real picture instead of html shapes<br>- Update the eyes tracking system to account for when the mouse is between both eyes <br></p>
+                                    <input class="expand-btn mb-3" type="checkbox">
                                     <a class="stylized-link" href="https://github.com/Mike-Veilleux/eye-exercise" target="_blank">Github</a>
                                     <a class="stylized-link" href="https://mike-veilleux.github.io/exercises/eye-exercise/index.html" target="_blank">Live</a>
 
@@ -171,7 +178,11 @@
 
     </main>
     <footer>
-        <!-- place footer here -->
+        <div class="col d-flex align-items-center mt-3  navbar-dark bg-dark">
+            <a class="icon-40 light mx-2" href="https://github.com/Mike-Veilleux" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a class="icon-40 light " href="http://linkedin.com/in/mike-veilleux-54052610" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <img src="./images/contact-h6-dark.png" class="mx-2" alt="contact">
+        </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
