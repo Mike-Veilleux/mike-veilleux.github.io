@@ -29,9 +29,11 @@
   <header class="sticky-top">
     <nav class="navbar navbar-dark bg-dark ">
       <div class="container-fluid">
-        <div>
-          <img id="random-avatar" src="https://robohash.org/Mike?set=set1" alt="Random Avatar" width="40" height="40" style="transform: scaleX(-1);">
-          <a class="navbar-brand align-middle" href="#">Mike Veilleux</a>
+        <div class="col d-flex align-items-right">
+          <div id="avatar-holder">
+            <img id="random-avatar" class="mx-2" src="https://robohash.org/Mike?set=set1" alt="Random Avatar" width="40" height="40" style="transform: scaleX(-1);">
+          </div>
+          <a class="navbar-brand align-bottom" href="#">Mike Veilleux</a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -44,7 +46,6 @@
           <div class="container">
             <img src="./images/Mike_Veilleux_500px.jpg" class="d-block mx-auto rounded-circle" alt="" width="150px" height="150px">
             <h4 class="text-center mt-1">Mike Veilleux</h4>
-            <!-- <h6 class="text-center mt-1">mvxdesign.hk@gmail.com</h6> -->
             <img src="./images/contact-h6-dark.png" class="d-block mx-auto" alt="contact">
             <div class="d-flex justify-content-center mt-1">
               <a class="icon-40 light mx-2" href="https://github.com/Mike-Veilleux" target="_blank"><i class="fa-brands fa-square-github"></i></a>
@@ -68,33 +69,35 @@
   <main>
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container">
-
-        <div class="ratio ratio-16x9 my-3">
-          <!-- <iframe src="./video/MikePortfolio.mp4" title="YouTube video" allowfullscreen></iframe> -->
-        </div>
-
-        <div class="row">
+      <div class="container my-5">
+        <div class="row ">
           <div class="col-lg-4">
-            <img src="./images/Mike_Veilleux_500px.jpg" class="img-fluid shadow rounded-3" alt="">
+            <img src="./images/Mike_Veilleux_500px.jpg" class="img-fluid shadow-lg rounded-5" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h2 class="mt-2">My Storie</h2>
+            <h2 class="mt-2">About me</h2>
             <p>
               I’ve lived in many countries and worked with many different people and technologies. I embrace diversity and thrive in bringing men and technologie together to create great software solutions.
             </p>
             <p>
               I was born and raised in Canada, I grew up coding on commodore computers in the 80’s. I spent nearly twenty years in Europe, working in the Computer Aided Design (CAD) softwares sector.
             </p>
-            <p>I'm now based in Hong Kong for the last six years and working in the education sector. I've been teaching and supporting Autodesk, Unity3D and microcontrollers projects for college students. I’ve recently joined the college ICT team as database analyst and full stack developer.</p>
+            <p>I'm now based in Hong Kong for the last six years and working in the education. I've been teaching and supporting students on various project using Autodesk products, WebGL and Virtual Reality with Unity3D, microcontroller and many more. I’ve recently joined the college ICT team as database analyst and full stack developer.</p>
             <p>
-              Take a look at my project page for more details.
+              Take a look at my <a class="stylized-link" href="https://mike-veilleux.github.io/projects.html" target="_blank">project</a> page for more details on my previous work.
             </p>
+
+            <h2>Contact me</h2>
             <p>
               You can contact me through <a class="stylized-link" href="http://linkedin.com/in/mike-veilleux-54052610" target="_blank">LinkedIn</a> or send me a email at: <img src="./images/contact-text-light.png" alt="contact">
             </p>
           </div>
         </div>
+
+        <div class="ratio ratio-16x9 my-3">
+          <!-- <iframe src="./video/MikePortfolio.mp4" title="YouTube video" allowfullscreen></iframe> -->
+        </div>
+
   </main>
   <footer>
     <div class="col d-flex align-items-center  navbar-dark bg-dark">
