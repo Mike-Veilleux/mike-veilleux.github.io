@@ -1,5 +1,6 @@
 * {
   font-family: "Roboto", sans-serif;
+  color: rgb(22, 26, 34);
 }
 
 /* .card {
@@ -26,13 +27,23 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 } */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(22, 26, 34);
+  font-weight: bold;
+}
+
 .icon-40 {
   text-decoration: none;
   font-size: 40px;
 }
 
 .light {
-  color: white;
+  color: rgb(237, 237, 238);
 }
 
 .dark {

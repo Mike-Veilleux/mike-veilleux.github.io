@@ -30,40 +30,38 @@
     <header class="sticky-top">
         <nav class="navbar navbar-dark bg-dark ">
             <div class="container-fluid">
-                <div>
-                    <img id="random-avatar" src="https://robohash.org/Mike?set=set1" alt="Random Avatar" width="40" height="40" style="transform: scaleX(-1);">
-                    <a class="navbar-brand align-middle" href="#">Mike Veilleux</a>
+                <div class="col d-flex align-items-right">
+                    <div id="avatar-holder">
+                        <img id="random-avatar" class="mx-2" src="https://robohash.org/Mike?set=set1" alt="Random Avatar" width="40" height="40" style="transform: scaleX(-1);">
+                    </div>
+                    <a class="navbar-brand align-bottom light" href="#">Mike Veilleux</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+                        <h5 class="offcanvas-title light" id="offcanvasNavbarLabel">Navigation</h5>
                         <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="container">
                         <img src="./images/Mike_Veilleux_500px.jpg" class="d-block mx-auto rounded-circle" alt="" width="150px" height="150px">
-                        <h4 class="text-center mt-1">Mike Veilleux</h4>
-                        <!-- <h6 class="text-center mt-1">mvxdesign.hk@gmail.com</h6> -->
+                        <h4 class="text-center mt-1 light">Mike Veilleux</h4>
                         <img src="./images/contact-h6-dark.png" class="d-block mx-auto" alt="contact">
                         <div class="d-flex justify-content-center mt-1">
-                            <a class="icon-40 light mx-2" href="https://github.com/Mike-Veilleux" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-                            <a class="icon-40 light mx-2" href="http://linkedin.com/in/mike-veilleux-54052610" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a class="icon-40 light mx-2" href="https://github.com/Mike-Veilleux" target="_blank"><i class="fa-brands fa-square-github  light"></i></a>
+                            <a class="icon-40 light mx-2" href="http://linkedin.com/in/mike-veilleux-54052610" target="_blank"><i class="fa-brands fa-linkedin  light"></i></a>
                         </div>
                     </div>
                     <div class="d-flex justify-content-center mt-5">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item mx-auto">
-                                <h2>
-
-                                    <a class="nav-link " href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
-                                </h2>
+                                <div class="nav-link">
+                                    <h3> <a class="nav-link " href="./index.html"><i class="fa-solid fa-house "></i> Home</a> </h3>
+                                </div>
                             </li>
                             <li class="nav-item mx-auto">
-                                <h2>
-                                    <a class="nav-link active" aria-current="page" href="./projects.html"><i class="fa-solid fa-list"></i> Projects</a>
-                                </h2>
+                                <h3> <a class="nav-link  active" aria-current="page" href="./projects.html"><i class="fa-solid fa-list light"></i> Projects</a> </h3>
                             </li>
                         </ul>
                     </div>
