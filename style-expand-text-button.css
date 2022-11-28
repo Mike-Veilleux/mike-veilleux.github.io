@@ -1,12 +1,9 @@
 .cutoff-text {
   --max-line: 2;
   --line-height: 1.5;
-
   max-height: calc(var(--max-line) * 1em * var(--line-height));
   line-height: var(--line-height);
-
   text-align: justify;
-
   overflow: hidden;
   position: relative;
 }

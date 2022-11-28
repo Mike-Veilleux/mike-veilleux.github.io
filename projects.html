@@ -1,380 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Mike Veilleux's Portfolio</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/88f49f7364.js"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <title>Mike Veilleux's Portfolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/88f49f7364.js" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 
-    <!-- Custom Style -->
-    <link rel="stylesheet" href="style-bootstrap-custom.css" />
-    <link rel="stylesheet" href="style-expand-text-button.css" />
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
-    <script src="./scr/randomAvatar.js"></script>
-  </head>
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="style-bootstrap-custom.css" />
+  <link rel="stylesheet" href="style-expand-text-button.css" />
 
-  <body class="">
-    <header class="sticky-top">
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <div class="col d-flex align-items-right">
-            <div id="avatar-holder">
-              <img
-                id="random-avatar"
-                class="mx-2"
-                src="https://robohash.org/Mike?set=set1"
-                alt="Random Avatar"
-                width="40"
-                height="40"
-                style="transform: scaleX(-1)"
-              />
-            </div>
-            <!-- <span class="navbar-brand light ">Mike Veilleux</span> -->
-            <a class="navbar-brand light mx-2" href="./index.html">Home</a>
-            <a class="navbar-brand light mx-2" href="./projects.html"
-              >Projects</a
-            >
+  <script src="./scr/randomAvatar.js"></script>
+</head>
+
+<body class="">
+  <header class="sticky-top">
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="col d-flex align-items-right">
+          <div id="avatar-holder">
+            <img id="random-avatar" class="mx-2" src="https://robohash.org/Mike?set=set1" alt="Random Avatar" width="40" height="40" style="transform: scaleX(-1)" />
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-start text-bg-dark"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title light" id="offcanvasNavbarLabel">
-                Navigation
-              </h5>
-              <button
-                type="button"
-                class="btn-close btn-close-white text-reset"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
+          <!-- <span class="navbar-brand light ">Mike Veilleux</span> -->
+          <a class="navbar-brand light mx-2" href="./index.html">Home</a>
+          <a class="navbar-brand light mx-2" href="./projects.html">Projects</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title light" id="offcanvasNavbarLabel">
+              Navigation
+            </h5>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="container">
+            <img src="./images/Mike_Veilleux_500px.jpg" class="d-block mx-auto rounded-circle" alt="" width="150px" height="150px" />
+            <h4 class="text-center mt-1 light">Mike Veilleux</h4>
+            <img src="./images/contact-h6-dark.png" class="d-block mx-auto" alt="contact" />
+            <div class="d-flex justify-content-center mt-1">
+              <a class="icon-40 mx-1" href="https://github.com/Mike-Veilleux" target="_blank"><i class="fa-brands fa-square-github github-color"></i></a>
+              <a class="icon-40 mx-1" href="http://linkedin.com/in/mike-veilleux-54052610" target="_blank"><i class="fa-brands fa-linkedin linkedin-color"></i></a>
             </div>
-            <div class="container">
-              <img
-                src="./images/Mike_Veilleux_500px.jpg"
-                class="d-block mx-auto rounded-circle"
-                alt=""
-                width="150px"
-                height="150px"
-              />
-              <h4 class="text-center mt-1 light">Mike Veilleux</h4>
-              <img
-                src="./images/contact-h6-dark.png"
-                class="d-block mx-auto"
-                alt="contact"
-              />
-              <div class="d-flex justify-content-center mt-1">
-                <a
-                  class="icon-40 mx-2"
-                  href="https://github.com/Mike-Veilleux"
-                  target="_blank"
-                  ><i class="fa-brands fa-square-github github-color"></i
-                ></a>
-                <a
-                  class="icon-40 mx-2"
-                  href="http://linkedin.com/in/mike-veilleux-54052610"
-                  target="_blank"
-                  ><i class="fa-brands fa-linkedin linkedin-color"></i
-                ></a>
-              </div>
-            </div>
-            <hr />
-            <!-- <h3 class="d-flex light justify-content-center mt-3">Navigation</h3> -->
-            <div class="d-flex justify-content-center mt-3">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item mx-auto">
-                  <h5><a class="nav-link" href="./index.html">Home</a></h5>
-                </li>
-                <li class="nav-item mx-auto">
-                  <h5>
-                    <a
-                      class="nav-link active"
-                      aria-current="page"
-                      href="./projects.html"
-                      >Projects</a
-                    >
-                  </h5>
-                </li>
-              </ul>
-            </div>
+          </div>
+          <hr />
+          <!-- <h3 class="d-flex light justify-content-center mt-3">Navigation</h3> -->
+          <div class="d-flex justify-content-center mt-3">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item mx-auto">
+                <h5><a class="nav-link" href="./index.html">Home</a></h5>
+              </li>
+              <li class="nav-item mx-auto">
+                <h5>
+                  <a class="nav-link active" aria-current="page" href="./projects.html">Projects</a>
+                </h5>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <section id="projects" class="projects">
-        <div class="container">
-          <h1 class="text-center my-5">Projects</h1>
-          <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card-group">
-                <div class="card shadow">
-                  <img
-                    class="card-img-top"
-                    src="./images/cards/bus_tracking_card_500px.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Live Bus Tracking</h2>
-                    <p class="cutoff-text">
-                      Follow Boston’s buses live on their route with real time
-                      tracking and information update. For this project I used
-                      MapboxGL and the MBTA public API. <br /><br />
-                      I decided to build my code around JavaScript class. I was
-                      able to integrate the Json data and the Mapbox.Marker in
-                      the same class instead of maintaining two separate arrays
-                      in the main program loop. <br /><br />By having all my
-                      elements encapsulated in a class, the code in the main
-                      loop became clearer and easy to follow. I think this will
-                      also help for further expansions and reduce complexity.
-                    </p>
-                    <input class="expand-btn mb-3" type="checkbox" />
-                    <a
-                      class="stylized-link"
-                      href="https://github.com/Mike-Veilleux/bus-tracking-exercise"
-                      target="_blank"
-                      >Github</a
-                    >
-                    <a
-                      class="stylized-link"
-                      href="https://mike-veilleux.github.io/exercises/bus-tracking-exercise/index.html"
-                      target="_blank"
-                      >Online</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card-group">
-                <div class="card shadow">
-                  <img
-                    class="card-img-top"
-                    src="./images/cards/eye_card_500px.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Eyes Tracker</h2>
-                    <p class="cutoff-text">
-                      A truly eye popping exercise from my training at MIT. A
-                      great introduction to event driven graphic animation. This
-                      exercise targets a few skills building:<br /><br />-"mousemove"
-                      event subscription<br />- Reading mouse event
-                      properties<br />- Usage of “absolute” and “relative” in
-                      CSS<br /><br />There are many upgrades possible for this
-                      project. Here's a few on my mind:<br /><br />- Use a real
-                      picture instead of html shapes<br />- Update the eyes
-                      tracking system to account for when the mouse is between
-                      both eyes<br />
-                    </p>
-                    <input class="expand-btn mb-3" type="checkbox" />
-                    <a
-                      class="stylized-link"
-                      href="https://github.com/Mike-Veilleux/eye-exercise"
-                      target="_blank"
-                      >Github</a
-                    >
-                    <a
-                      class="stylized-link"
-                      href="https://mike-veilleux.github.io/exercises/eye-exercise/index.html"
-                      target="_blank"
-                      >Online</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card-group">
-                <div class="card shadow">
-                  <img
-                    class="card-img-top"
-                    src="./images/cards/pacman_500px.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Pacman</h2>
-                    <p class="cutoff-text">
-                      This was one of my very first projects from my training at
-                      MIT. All about the fundamentals of JavaScript and web must
-                      know.<br /><br />This project contains functions for
-                      movement based on direction and velocity. There is also a
-                      system to detect collisions.<br /><br />This is an ongoing
-                      project and I will most likely add more functionality to
-                      it such as collision detection between pacmans.
-                    </p>
-                    <input class="expand-btn mb-3" type="checkbox" />
-                    <a
-                      class="stylized-link"
-                      href="https://github.com/Mike-Veilleux/pacman-exercise"
-                      target="_blank"
-                      >Github</a
-                    >
-                    <a
-                      class="stylized-link"
-                      href="https://mike-veilleux.github.io/exercises/pacman-exercise/index.html"
-                      target="_blank"
-                      >Online</a
-                    >
-                  </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="projects" class="projects">
+      <div class="container">
+        <h1 class="text-center my-5">Projects</h1>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card-group">
+              <div class="card shadow">
+                <img class="card-img-top" src="./images/cards/bus_tracking_card_500px.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h2 class="card-title">Live Bus Tracking</h2>
+                  <p class="cutoff-text">
+                    Follow Boston’s buses live on their route with real time
+                    tracking and information update. For this project I used
+                    MapboxGL and the MBTA public API. <br /><br />
+                    I decided to build my code around JavaScript class. I was
+                    able to integrate the Json data and the Mapbox.Marker in
+                    the same class instead of maintaining two separate arrays
+                    in the main program loop. <br /><br />By having all my
+                    elements encapsulated in a class, the code in the main
+                    loop became clearer and easy to follow. I think this will
+                    also help for further expansions and reduce complexity.
+                  </p>
+                  <input class="expand-btn mb-3" type="checkbox" />
+                  <a class="stylized-link" href="https://github.com/Mike-Veilleux/bus-tracking-exercise" target="_blank">Github</a>
+                  <a class="stylized-link" href="https://mike-veilleux.github.io/exercises/bus-tracking-exercise/index.html" target="_blank">Online</a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card-group">
-                <div class="card shadow">
-                  <img
-                    class="card-img-top"
-                    src="./images/cards/asset_card_500px.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Asset Manager</h2>
-                    <p class="cutoff-text">
-                      This project was born at Discovery College in the design
-                      department. The teachers and I wanted a system to manage
-                      and inspect our machine park. <br /><br />
-                      This is a .NET base project targeting WPF, ASP and
-                      Xamarin. This project is not available on my github as it
-                      is developed specifically for our college. I'm planning to
-                      create an open source React/NodeJS version so stay
-                      tuned...
-                    </p>
-                    <input class="expand-btn mb-3" type="checkbox" />
-                    <a
-                      class="stylized-link"
-                      href="https://mike-veilleux.github.io/galleries/asset-manager/gallery-asset-manager.html"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </div>
+          <div class="col-md-4 mb-4">
+            <div class="card-group">
+              <div class="card shadow">
+                <img class="card-img-top" src="./images/cards/eye_card_500px.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h2 class="card-title">Eyes Tracker</h2>
+                  <p class="cutoff-text">
+                    A truly eye popping exercise from my training at MIT. A
+                    great introduction to event driven graphic animation. This
+                    exercise targets a few skills building:<br /><br />-"mousemove"
+                    event subscription<br />- Reading mouse event
+                    properties<br />- Usage of “absolute” and “relative” in
+                    CSS<br /><br />There are many upgrades possible for this
+                    project. Here's a few on my mind:<br /><br />- Use a real
+                    picture instead of html shapes<br />- Update the eyes
+                    tracking system to account for when the mouse is between
+                    both eyes<br />
+                  </p>
+                  <input class="expand-btn mb-3" type="checkbox" />
+                  <a class="stylized-link" href="https://github.com/Mike-Veilleux/eye-exercise" target="_blank">Github</a>
+                  <a class="stylized-link" href="https://mike-veilleux.github.io/exercises/eye-exercise/index.html" target="_blank">Online</a>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="col-md-4 mb-4">
-              <div class="card-group">
-                <div class="card shadow">
-                  <img
-                    class="card-img-top"
-                    src="./images/cards/Fusion_500px.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Tabs & Living Hinges</h2>
-                    <p class="cutoff-text">
-                      Generate Tabs and Living Hinges pattern in Fusion 360 for
-                      laser cutters.<br /><br />As a Fusion 360 instructor and
-                      active maker, I realized the need for an automated tab
-                      joints and living hinges generator. I wrote those two
-                      plugins to accelerate the process in the native
-                      environment.<br /><br />This Python based GPL license
-                      project has already gained community collaboration via
-                      Github.
-                    </p>
-                    <input class="expand-btn mb-3" type="checkbox" />
-                    <a
-                      class="stylized-link"
-                      href="https://github.com/Mike-Veilleux/Fusion360-Plugin-TabJoint-LivingHinge"
-                      target="_blank"
-                      >Github</a
-                    >
-                    <a
-                      class="stylized-link"
-                      href="https://mike-veilleux.github.io/galleries/f360/gallery-f360-plugin.html"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card-group">
-                <div class="card shadow">
-                  <img
-                    class="card-img-top"
-                    src="./images/cards/lift_500px.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h2 class="card-title">Elevator System</h2>
-                    <p class="cutoff-text">
-                      A simple elevator system for unity3D environment. Easily
-                      expandable with no dependency, this is a great project to
-                      learn more and experiment with event based design
-                      patterns. Here's a few features highlight: <br /><br />-
-                      Animated doors <br />- Operating buttons <br />- Floor
-                      selection UI <br />- Easy to expand and configure
-                      <br /><br />That project was created on version 2021.3.0f1
-                      but can be upgraded upward. If you need it for a previous
-                      version, you can salvage the scripts easily.
-                    </p>
-                    <input class="expand-btn mb-3" type="checkbox" />
-                    <a
-                      class="stylized-link"
-                      href="https://github.com/Mike-Veilleux/Unity-Elevator-System"
-                      target="_blank"
-                      >Github</a
-                    >
-                    <a
-                      class="stylized-link"
-                      href="https://mike-veilleux.github.io/galleries/unity/gallery-elevator.html"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </div>
+          <div class="col-md-4 mb-4">
+            <div class="card-group">
+              <div class="card shadow">
+                <img class="card-img-top" src="./images/cards/pacman_500px.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h2 class="card-title">Pacman</h2>
+                  <p class="cutoff-text">
+                    This was one of my very first projects from my training at
+                    MIT. All about the fundamentals of JavaScript and web must
+                    know.<br /><br />This project contains functions for
+                    movement based on direction and velocity. There is also a
+                    system to detect collisions.<br /><br />This is an ongoing
+                    project and I will most likely add more functionality to
+                    it such as collision detection between pacmans.
+                  </p>
+                  <input class="expand-btn mb-3" type="checkbox" />
+                  <a class="stylized-link" href="https://github.com/Mike-Veilleux/pacman-exercise" target="_blank">Github</a>
+                  <a class="stylized-link" href="https://mike-veilleux.github.io/exercises/pacman-exercise/index.html" target="_blank">Online</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <!-- <footer class="fixed-bottom">
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card-group">
+              <div class="card shadow">
+                <img class="card-img-top" src="./images/cards/asset_card_500px.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h2 class="card-title">Asset Manager</h2>
+                  <p class="cutoff-text">
+                    This project was born at Discovery College in the design
+                    department. The teachers and I wanted a system to manage
+                    and inspect our machine park. <br /><br />
+                    This is a .NET base project targeting WPF, ASP and
+                    Xamarin. This project is not available on my github as it
+                    is developed specifically for our college. I'm planning to
+                    create an open source React/NodeJS version so stay
+                    tuned...
+                  </p>
+                  <input class="expand-btn mb-3" type="checkbox" />
+                  <a class="stylized-link" href="https://mike-veilleux.github.io/galleries/asset-manager/gallery-asset-manager.html" target="_blank">Gallery</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card-group">
+              <div class="card shadow">
+                <img class="card-img-top" src="./images/cards/Fusion_500px.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h2 class="card-title">Tabs & Living Hinges</h2>
+                  <p class="cutoff-text">
+                    Generate Tabs and Living Hinges pattern in Fusion 360 for
+                    laser cutters.<br /><br />As a Fusion 360 instructor and
+                    active maker, I realized the need for an automated tab
+                    joints and living hinges generator. I wrote those two
+                    plugins to accelerate the process in the native
+                    environment.<br /><br />This Python based GPL license
+                    project has already gained community collaboration via
+                    Github.
+                  </p>
+                  <input class="expand-btn mb-3" type="checkbox" />
+                  <a class="stylized-link" href="https://github.com/Mike-Veilleux/Fusion360-Plugin-TabJoint-LivingHinge" target="_blank">Github</a>
+                  <a class="stylized-link" href="https://mike-veilleux.github.io/galleries/f360/gallery-f360-plugin.html" target="_blank">Gallery</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card-group">
+              <div class="card shadow">
+                <img class="card-img-top" src="./images/cards/lift_500px.jpg" alt="Card image cap" />
+                <div class="card-body">
+                  <h2 class="card-title">Elevator System</h2>
+                  <p class="cutoff-text">
+                    A simple elevator system for unity3D environment. Easily
+                    expandable with no dependency, this is a great project to
+                    learn more and experiment with event based design
+                    patterns. Here's a few features highlight: <br /><br />-
+                    Animated doors <br />- Operating buttons <br />- Floor
+                    selection UI <br />- Easy to expand and configure
+                    <br /><br />That project was created on version 2021.3.0f1
+                    but can be upgraded upward. If you need it for a previous
+                    version, you can salvage the scripts easily.
+                  </p>
+                  <input class="expand-btn mb-3" type="checkbox" />
+                  <a class="stylized-link" href="https://github.com/Mike-Veilleux/Unity-Elevator-System" target="_blank">Github</a>
+                  <a class="stylized-link" href="https://mike-veilleux.github.io/galleries/unity/gallery-elevator.html" target="_blank">Gallery</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- <footer class="fixed-bottom">
         <div class="col d-flex align-items-center  navbar-dark bg-dark">
             <a class="icon-40 light mx-2" href="https://github.com/Mike-Veilleux" target="_blank"><i class="fa-brands fa-square-github light"></i></a>
             <a class="icon-40 light " href="http://linkedin.com/in/mike-veilleux-54052610" target="_blank"><i class="fa-brands fa-linkedin light"></i></a>
@@ -382,17 +239,10 @@
         </div>
     </footer> -->
 
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+
 </html>
