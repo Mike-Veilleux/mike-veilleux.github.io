@@ -25,13 +25,13 @@
   </head>
 
   <body>
-    <!-- <div class="legend-frame"> -->
-      <!-- <div class="legend-title">Bus Tracking Exercise</div> -->
-      <!-- <div class="legend-content"> -->
-        <!-- Bus fleet live tracking on route 1. Boston MA. -->
-      <!-- </div> -->
-      <!-- <div class="legend-content"><a class="stylized-link" href="https://github.com/Mike-Veilleux/pacman-exercise" target="_blank">Github</a><a class="stylized-link" href="https://mike-veilleux.github.io/projects.html" target="_blank">Project</a></div> -->
-    <!-- </div> -->
+    <div class="legend-frame">
+      <div class="legend-title">Bus Tracking Exercise</div>
+      <div class="legend-content">
+        Bus fleet live tracking on route 1. Boston MA.
+      </div>
+      <div class="legend-content"><a class="stylized-link" href="https://github.com/Mike-Veilleux/pacman-exercise" target="_blank">Github</a><a class="stylized-link" href="https://mike-veilleux.github.io/projects.html" target="_blank">Project</a></div>
+    </div>
     <div id="map" class="map-container"></div>
 
     <!-- Scripts -->

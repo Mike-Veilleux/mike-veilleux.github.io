@@ -12,11 +12,11 @@
 </head>
 
 <body>
-    <!-- <div class="legend-frame"> -->
-        <!-- <div class="legend-title">Pacman Exercise</div> -->
-        <!-- <div class="legend-content">Movement and collision exercise.</div> -->
-        <!-- <div class="legend-content"><a class="stylized-link" href="https://github.com/Mike-Veilleux/pacman-exercise" target="_blank">Github</a><a class="stylized-link" href="https://mike-veilleux.github.io/projects.html" target="_blank">Project</a></div> -->
-    <!-- </div> -->
+    <div class="legend-frame">
+        <div class="legend-title">Pacman Exercise</div>
+        <div class="legend-content">Movement and collision exercise.</div>
+        <div class="legend-content"><a class="stylized-link" href="https://github.com/Mike-Veilleux/pacman-exercise" target="_blank">Github</a><a class="stylized-link" href="https://mike-veilleux.github.io/projects.html" target="_blank">Project</a></div>
+    </div>
     <div id='game'>
         <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
         <button onclick='update()' width='200' height='30'>Start Game</button>
